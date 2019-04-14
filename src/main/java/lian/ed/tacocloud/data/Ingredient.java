@@ -1,4 +1,4 @@
-package lian.ed.tacocloud;
+package lian.ed.tacocloud.data;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

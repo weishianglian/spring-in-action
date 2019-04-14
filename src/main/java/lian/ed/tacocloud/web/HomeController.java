@@ -1,7 +1,6 @@
-package lian.ed.tacocloud;
+package lian.ed.tacocloud.web;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {

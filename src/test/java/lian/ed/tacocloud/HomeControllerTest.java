@@ -1,5 +1,6 @@
 package lian.ed.tacocloud;
 
+import lian.ed.tacocloud.web.HomeController;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
