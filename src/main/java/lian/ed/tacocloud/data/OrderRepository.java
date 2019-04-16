@@ -1,6 +1,10 @@
 package lian.ed.tacocloud.data;
 
-public interface OrderRepository {
+import org.springframework.data.repository.CrudRepository;
 
-    Order save(Order order);
+public interface OrderRepository extends CrudRepository<Order, Long> {
+
+//    Order save(Order order);
+
+
 }

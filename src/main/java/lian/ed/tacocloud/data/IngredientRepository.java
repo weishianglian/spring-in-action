@@ -1,10 +1,12 @@
 package lian.ed.tacocloud.data;
 
-public interface IngredientRepository {
+import org.springframework.data.repository.CrudRepository;
 
-    Iterable<Ingredient> findAll();
+public interface IngredientRepository extends CrudRepository<Ingredient, Long> {
 
-    Ingredient findById(String id);
+//    Iterable<Ingredient> findAll();
 
-    Ingredient save(Ingredient ingredient);
+//    Ingredient findById(String id);
+
+//    Ingredient save(Ingredient ingredient);
 }
